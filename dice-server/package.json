@@ -1,0 +1,11 @@
+{
+  "name": "dice-server",
+  "version": "1.0.0",
+  "description": "emulate dice in server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "higekick",
+  "license": "ISC"
+}
