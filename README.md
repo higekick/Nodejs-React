@@ -6,24 +6,22 @@ $ npm install
 - to format code, use JS Standard Code Style  
  - for project  
 <code>
-$ npm install standard --save-dev
+$ npm install standard --save-dev  
 </code>
  - for global  
 <code>
-$ npm install standard --global
+$ npm install standard --global  
 </code>
  - check format  
 <code>
-$ standard
+$ standard  
 </code>
  - reformat  
 <code>
-$ standard --fix
+$ standard --fix  
 </code>
  - Format plugin for Atom Editor  
 <code>
-$ apm install linter
-</code>
-<code>
+$ apm install linter  
 $ apm install linter-js-standard
 </code>
