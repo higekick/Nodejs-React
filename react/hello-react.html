@@ -6,9 +6,21 @@
 </head><body>
   <div id="root"></div>
   <script type="text/babel">
-  ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
-  )
+  setInterval(showClock, 1000)
+  function showClock () {
+      const d = new Date()
+      const h = d.getHours()
+      const m = d.getMinutes()
+      const s = d.getSeconds()
+      const z2 = (v) => {
+        const s = "00" + v
+        return s.substr(s.length - 2, 2)
+      }
+      const el = <div>
+                {z2(h)}:{z2(m)}:{z2(s)}
+                </div>;
+      const root = document.getElementById("root")
+      ReactDOM.render(el, root)
+  }
   </script>
 </body></html>
